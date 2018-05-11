@@ -1,0 +1,143 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800');
+body{
+    margin:0;
+}
+header{
+    background:black;
+    color:yellow;
+    padding: 8px 0px 6px 40px;
+    height: 60px;
+}
+header h1{
+    display: inline;
+    font-family: fantasy;
+    font-weight: 700;
+    font-size: 36px;
+    float: left;
+    margin-top: 0px;
+    margin-right: 10px;
+
+}
+nav ul{
+    display: inline;
+    padding: 0px;
+    float: left;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    float: left;
+    margin-left: 12px;
+
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+#rothi{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.homered{
+    background-color: red;
+    padding: 20px 0px 32px 0px;
+
+}
+.devi{
+    background-color: red;
+    height: 10px;
+}
+
+.homeblack:hover{
+    background-color: blue;
+    padding: 31px 10px 31px 12px;
+}
+
+#pic{
+    width: 2000px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    padding: 0px;
+}
+.homewel{
+    margin:0;
+    padding: 100px 50px 0px 10px;
+    float: top;
+}
+.login{
+    width: 330px;
+    height: 500px;
+    background: #000;
+    color: #fff;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+
+}
+h1{
+    margin:0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+
+}
+.login p{
+    margin:0;
+    padding: 0;
+    font-weight: bold;
+}
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.login input[type="text"],input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 25px;
+    color:white;
+    font-size: 16px;
+}
+.login input[type="submit"]{
+    border:none;
+    outline: none;
+    height: 40px;
+
+    background: #fb2525;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+
+
+
+}
+.login input[type="submit"]:hover{
+    cursor: pointer;
+    color: yellow;
+    background: #ffc107;
+}
+.login a{
+    text-decoration: underline;
+    font-size: 16px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.login a:hover{
+    color: yellow;
+}

@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    font-family: fantasy;
+    font-size: 50px;
+    background: center;
+    background-color: red;
+    float: inherit;
+}
+
