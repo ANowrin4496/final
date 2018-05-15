@@ -16,13 +16,14 @@
 <header>
   <nav>
     <h1>Dormitory Management Software</h1>
+
     <ul id="rothi">
 
       <li><a class="homered" href="#">HOME</li></a>
       <li><a class="homeblack" href="about.jsp">ABOUT</li></a>
-      <li><a class="homeblack" href="room.html">ROOM</li></a>
-      <li><a class="homeblack" href="meal.html">MEALS</li></a>
-      <li><a class="homeblack" href="protocols.html">PROTOCOLS</li></a>
+      <li><a class="homeblack" href="room.jsp">ROOM</li></a>
+      <li><a class="homeblack" href="mealshome.jsp">MEALS</li></a>
+      <li><a class="homeblack" href="protocols.jsp">PROTOCOLS</li></a>
 
     </ul>
   </nav>
@@ -35,18 +36,23 @@
 </div>
 <div class="login">
 
-  <h1>LOGIN HERE</h1>
-  <form action="login.jsp">
-    <p>User Type</p>
-    <input type="text" name="" placeholder="Enter Usertype">
+  <h1>WELCOME !</h1>
+  <h1>PLEASE LOGIN HERE</h1>
+  <form action="/show">
+
     <p>User Name </p>
-    <input type="text" name="" placeholder="Enter UserName">
+    <input type="text" name="name" placeholder="Enter UserName">
     <p>Password</p>
-    <input type="password" name="" placeholder="Enter Password">
-    <input type="submit" name="" value="login">
-    <a class="test" href="forgotpass.jsp">Forgot Password?</a><br>
-    <a class="test2" href="newstudent.jsp">New Student?</a>
+    <input type="password" name="password" placeholder="Enter Password">
+    <input type="submit" name="" value="Login as Student">
+
   </form>
+  <form action="/showadmin">
+    <input type="submit" name="" value="Login as Admin">
+  </form>
+  <a class="test" href="forgotpass.jsp">Forgot Password?</a><br>
+  <a class="test2" href="newstudent.jsp">New Student?</a>
+
 </div>
 
 </body>
